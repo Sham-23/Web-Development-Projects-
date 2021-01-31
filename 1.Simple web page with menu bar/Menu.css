@@ -1,0 +1,98 @@
+body{
+	background: url('book44.jpg');
+	background-size: 1600px 800px;	
+}
+
+.menu{
+width: 30%;
+margin: 0px;
+background: lightgray;
+overflow: auto;
+border-radius: 2px;
+}
+.menu ul{
+	margin: 5px auto;
+	padding: 10px ;
+	border-radius:6px; 
+	list-style: none;
+	line-height: 40px;
+
+}
+.menu li{
+	float:left;
+}
+.menu ul li a{
+		background: lightgray;
+		color: black;
+	    width: 100px;
+	    display: block;
+		font-family: sans-serif;
+		letter-spacing: 0.5px;
+		text-decoration: none;
+	}
+
+
+.menu li a:hover{
+	color: solid black;
+	background:rgb(125,255,120);
+	line-height: 40px;
+}
+.Searchbox{
+	width: 60%;
+	margin: 100px auto;
+	margin-top: 300px;
+	text-align : center;
+
+	
+}
+.Search-txt{
+	width: 50%;
+	border: 0px;
+	line-height: 30px;
+	border-radius: 6px;
+		font-size: 20px;
+
+
+
+}
+button{
+	line-height: 30px;
+	background-color: lightgreen;
+}
+
+.suggestion{
+	min-width: 40%;
+	max-width: 70%;
+}
+.suggestion > div{
+	display: block;
+	padding: 5px;
+	font-size: 25px;
+	color: white;
+}
+
+
+.suggestion > div:hover {
+	border-top: 2px solid black;
+	border-bottom:  2px solid black;
+
+	line-height: 25px;
+	margin-left: 200px;
+	background-color: #1e4dd4;
+	color: white;
+	font-size: 25px;
+	cursor: pointer;
+}
+footer{
+	position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 30%;
+  color: white;
+  background-color: black;
+  border: 3px solid #73AD21;
+
+}
+
+
+
