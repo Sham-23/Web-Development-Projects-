@@ -1,0 +1,164 @@
+body{
+	background: url('book44.jpg');
+	background-size: 1600px 800px;	
+
+}
+
+
+
+#menu{
+	width: 50px;
+	height : 40px;
+	margin: 30px 0px 20px 20px;
+	cursor: pointer;
+
+}
+.bar{
+	height: 10px;
+	width: 100%;
+	background-color: white;
+	display: block;
+	border-radius: 5px;
+	transition: 0.3s ease;
+	
+}
+#bar1{
+	transform: translateY(-4px);
+
+}
+#bar3{
+	transform: translateY(4px);
+}
+.nav li a{
+
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+
+}
+.nav li a:hover{
+	font-weight: bold;
+	font-size: 20px;
+}
+.nav li{
+	border-bottom: solid #fff;
+	list-style: none;
+	padding: 16px 0;
+}
+.nav{
+	padding: 0;
+	margin: 0 20px;
+	transition: 0.3s ease;
+	display: none;
+}
+.menu-bg, #menu-bar{
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+.menu-bg{
+	z-index: 1;
+	width: 0;
+	height: 0;
+	margin: 30px 0px 20px 20px;
+
+	background: radial-gradient(circle,black,gray);
+	transition: 0.3s ease;
+	border-radius: 10%;
+}
+#menu-bar{
+	z-index: 2;
+}
+.change-bg{
+	width: 550px;
+	height: 540px;
+	transform: translate(-70%,-30%);
+}
+.change .bar{
+	background-color: green;
+}
+.change #bar1{
+	transform: translateY(9px) rotateZ(-45deg) ;
+
+}
+.change #bar3{
+	transform: translateY(-10px) rotate(45deg);
+}
+.change #bar2{
+	opacity: 0;
+}
+.change{
+	display: block;
+}
+.des{
+	margin-top: 250px;
+	margin-left: 300px;
+	 width: 50%;
+	 line-height: 40px;
+	 border-radius: 10px;
+	 border-style: ridge;
+	 border-width: 5px;
+	 border-color: solid black;
+	 font-size: 20px;
+}
+button{
+		 width: 100px;
+		 line-height: 40px;
+		 border-radius: 20px;
+		 font-size: 20px;
+		 background-color: solid black;
+
+
+}
+button:hover{
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
+.wrapper{
+	margin-top: 50px;
+}
+.wrapper h1{
+	font-family:sans-serif;
+	text-align: center;
+	background-color: #12edcc;
+	width: 400px;
+	line-height: 50px;
+	margin-left: 490px;
+	border-radius: 25px;
+	border-style: groove;
+	border-color: gray;
+}
+.Sug{
+	display: flex;
+	text-align: center;
+	width: auto;
+
+}
+.Sug .sec1:hover{
+	font-size: 20px;
+	background-color:white;
+	color: black;
+	cursor: pointer;
+}
+.Sug .sec1{
+		background-color:silver;
+		margin-left: 80px;
+		margin-top: 50px;
+		width: 200px;
+		border-radius: 5px;
+		font-size: 20px;
+		color: white;
+
+}
+footer{
+	
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 30%;
+  color: white;
+  background-color: black;
+  border: 3px solid #73AD21;
+
+}
